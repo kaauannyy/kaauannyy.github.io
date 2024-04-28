@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://www.creativefabrica.com/product/dongtao/');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Platypi";
+    
+}
+body{
+    background-color: #0085ff;
+}
+:root{
+    --COR1: #094379;
+    --COR2:#F8E505;
+    --COR3: #EF3220;
+    --COR4: #2BBD6E;
+    }
+
+
+nav a {
+    text-decoration: none;
+    padding: 2.5em;
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #d83232;
+}
+
+nav{
+    text-align: center;
+    background-color: #0085ff;
+}
+h1{
+    text-align: center;
+    padding-top: 55px;
+}
+.caixa {
+    margin: 30px;
+    padding: 55px;
+    padding-top: 5px;
+    padding-left: 400px;
+    overflow: auto;
+    width: 500px;
+
+}
+.caixa  ul{
+    padding-left: 50px;
+    color: #ffffff;
+    padding-top: 15PX;
+}
+h3 {
+    font-size: 20px;
+    padding-top: 15PX;
+}
+p{
+    line-height: 30px;
+    color: #ffffff;
+    padding-top: 15PX;
+}
+
+h2{
+    color: var(--COR1);
+}
+h1{
+    color: #1C72C2;
+}
+h3{
+    color: var(--COR2);
+}
+h3.l3{
+    color: var(--COR3);
+}
+h3.l4{
+    color: var(--COR4);
+}
+h3.l5{
+    color: var(--COR1);
+}
+h3.l6{
+    color: var(--COR2);
+}
+img{
+    height: 100px;
+    /* width: 470px;*/
+} 
+
+div.localizacao{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+div.localizacao img {
+    height: 30px;
+}
+
+footer{
+    text-align: center;
+    color: beige;
+}
