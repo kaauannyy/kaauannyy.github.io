@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://www.creativefabrica.com/product/dongtao/');
 
 *{
     margin: 0;
@@ -8,51 +9,161 @@
     
 }
 body{
-    background-color: #3a4752;
+    background-color: #0085ff;
+    background-image: url(/IMG/fundo2.jpeg);
+}
+:root{
+    /* --COR1: #094379;
+    --COR2:#F8E505; */
+    --COR3: #EF3220;
+    --COR4: #2BBD6E;
+    }
+
+ .display{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.oi{
+    padding-left: -2px
 }
 nav a {
     text-decoration: none;
-    padding: 2.5em;
     color: #ffffff;
+   
+}
+h1{
+    padding-bottom: 50px;
+}
+li{
+    color: black;
+}
+
+nav a:hover{
+    color:#0085ff;
 }
 
 nav{
-    text-align: center;
     
-    background-color: #788fa0;
+    background-color: #0085ff;
+    margin-top: 2px;
+}
+
+nav img{
+    height: 40px;
+    
 }
 h1{
     text-align: center;
     padding-top: 55px;
-    color: rgb(164, 91, 236);
 }
-.caixa3 {
-    margin: 30px;
+.caixa {
+    /* margin: 30px;
     padding: 55px;
-    padding-top: 5px;
-    padding-left: 400px;
-    overflow: auto;
-    width: 500px;
-
+    /* padding-top: 5px;
+    padding-left: 400px; */
+    /* overflow: auto; */
+    /* width: 500px; */
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05), 0 1px 4px rgba(0,0,0,.05);
+    padding: 1rem;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    max-width: 715px;
+    text-align: center;
+    margin: 320px;
+    margin-top: 10px;
+  
 }
-.caixa3  ul{
+
+.espaco{
+    margin-top: 30px;
+}
+
+.caixa  ul{
     padding-left: 50px;
+    color: #000000;
+    padding-top: 15PX;
+    text-align: center;
 }
-h3, h2, h4 , h5{
+.l5 ul li {
+    padding-left: 100px;
+}
+h3 {
     font-size: 20px;
-    color: rgb(60, 182, 60);
+    padding-top: 15PX;
 }
-
 p{
     line-height: 30px;
-    color: #ffffff;
+    color: #000000;
     padding-top: 15PX;
+    text-align: justify;
+}
+
+h2{
+    color: var(--COR1);
+}
+h1{
+    color: #1C72C2;
+}
+
+ h2 {
+    color: var(--COR3);
+}
+
+
+.banner {
+    background-color:   hsla(209, 100%, 50%, 0.658); /* Cor de fundo do banner com transparência */
+    color: #ffffff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    /* margin-left: 350px; */
+    border-radius: 10px; /* Arredondamento dos cantos */
+    text-align: center; /* Centralizar conteúdo */
+   /* max-width: 50%;  Largura máxima do banner */
+    margin-top: 2px;
+  }
+  
+  .banner-content {
+    margin: 0 auto; /* Centralizar o conteúdo */
+    display: flex; /* Layout em linha */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: center; /* Centralizar verticalmente */
+  }
+  
+  .text-content {
+    max-width: 50%; /* Largura máxima do conteúdo de texto */
+  }
+  
+  .image-content {
+    max-width: 40%; /* Largura máxima da imagem */
+  }
+
+  
+  .image-content img {
+    width: 100%; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Arredondar cantos da imagem */
+  }
+
+div.localizacao{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 280px;
+}
+
+div.localizacao img {
+    height: 30px;
+}
+.l6{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 footer{
     text-align: center;
-    color: beige;
-}
-
-.cat3, .kiss{
-    width: 500px;
+    color: rgb(0, 0, 0);
 }
