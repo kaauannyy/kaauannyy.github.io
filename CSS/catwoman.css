@@ -125,7 +125,9 @@ h1{
     transition: box-shadow 0.3s, transform 0.3s; /* Adicionando transição para a sombra e o efeito de zoom */
 
   }
-
+  .oi{
+    padding-right: 102px
+}
   .banner:hover {
     box-shadow: 0px 10px 20px #2bbd6f8a; /* Sombra ao passar o mouse */
     transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
