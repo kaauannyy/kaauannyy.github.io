@@ -27,6 +27,17 @@ body{
 .oi{
     padding-left: -2px
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff; 
+    z-index: 1000;
+}
 nav a {
     text-decoration: none;
     color: #ffffff;
@@ -123,6 +134,7 @@ h1{
    /* max-width: 50%;  Largura máxima do banner */
     margin-top: 2px;
     transition: box-shadow 0.3s, transform 0.3s; /* Adicionando transição para a sombra e o efeito de zoom */
+
 
   }
   .oi{
